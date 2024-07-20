@@ -42,7 +42,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: beniciont/myapp:latest
+          tags: beniciont/myapp:1.0.0
           
       - name: Set up Node.js
         uses: actions/setup-node@v2
