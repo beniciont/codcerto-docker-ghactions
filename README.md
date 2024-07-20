@@ -43,3 +43,4 @@ imports: [TypeOrmModule.forRoot(typeOrmConfig), TasksModule],
 ```
 docker compose up --build
 ```
+.
