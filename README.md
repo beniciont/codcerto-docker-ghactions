@@ -4,6 +4,29 @@
   
 <p align="center">Este repositório contém uma API Node.js utilizando NestJS, um banco de dados PostgreSQL e uma interface pgAdmin, todos executados em contêineres Docker. Este projeto demonstra a integração e automação utilizando GitHub Actions para CI/CD..</P>
 
+## Palestrantes
+
+Benício Neto: 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/benicio-neto/)
+
+Guilherme Duccini
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/guilhermeduccini/)
+
+Heberton  Geovane 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](
+https://www.linkedin.com/in/heberton-geovane/)
+
+
+## Índice
+
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Pré-requisitos](#pré-requisitos)
+- [Configuração do Ambiente](#configuração-do-ambiente)
+- [Contato](#contato)
+
 ---
 
 ## Estrutura do Projeto
@@ -168,10 +191,33 @@ docker-compose up -d
 
 ### 6. Testar a Pipeline 
 
-Faça um commit e push para o branch main para acionar o GitHub Actions e iniciar a pipeline de CI/CD. Você pode acompanhar a execução dos workflows na aba "Actions" do seu repositório GitHub.
+Faça um commit e push para o branch main para acionar o GitHub Actions e iniciar a pipeline de CI/CD.
 
 ```
 git add .
 git commit -m "Iniciar Pipeline"
 git push orign main 
 ```
+
+Você pode acompanhar a execução dos workflows na aba "Actions" do seu repositório GitHub, exemplo logo abaixo: 
+
+![alt text](image.png)
+
+Se tudo correr bem, o workflow será marcado como concluído com sucesso (verde) e você poderá encontrar a imagem do Docker criada no seu repositório no Docker Hub, exemplo logo abaixo:
+
+![alt text](image-1.png)
+
+---
+## Recursos Adicionais
+
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Docker Compose Documentation](https://docs.docker.com/compose/)
+- [NestJS Documentation](https://docs.nestjs.com/)
+
+## Contato
+
+Benicio Neto
+
+[![Outlook](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=0078D4)](mailto:benicio.neto@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/benicio-neto/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/beniciont)
